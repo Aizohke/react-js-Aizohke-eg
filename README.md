@@ -119,6 +119,8 @@ plp-task-manager/
 
 Deployment on localhost
 (<Screenshot 2025-10-23 182803.png>)
+<img width="1362" height="766" alt="image" src="https://github.com/user-attachments/assets/957fae80-bb91-4c6a-8e39-a88bafa19e23" />
+
 
 Deployment on netlify
 
