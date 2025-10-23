@@ -94,9 +94,7 @@ plp-task-manager/
 ## 🌐 Live Demo
 
 > 🎯 **Deployed Version:**
-> 🔗 [View Live Demo](https://your-netlify-link-here.netlify.app)
-
-_(Replace the above link once you deploy to Netlify or GitHub Pages)_
+> 🔗 [View Live Demo](https://plpreactapp.netlify.app/)
 
 ---
 
@@ -119,8 +117,13 @@ _(Replace the above link once you deploy to Netlify or GitHub Pages)_
 
 ## 🖼️ Screenshot of the Working App
 
-Deployment on local host
+Deployment on localhost
 (<Screenshot 2025-10-23 182803.png>)
+
+Deployment on netlify
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/502aecee-e1d1-4930-8c80-e051d3d35896" />
+
 
 ---
 
