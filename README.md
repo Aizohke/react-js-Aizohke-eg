@@ -1,70 +1,130 @@
-# React.js and Tailwind CSS Assignment
+# 🎨 PLP Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+### React.js + JSX + Tailwind CSS – Week 3 Assignment
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 Overview
 
-## Getting Started
+**PLP Task Manager** is a responsive front-end React application built with **Vite**, **JSX**, and **Tailwind CSS**.
+It demonstrates mastery of component-based architecture, state management using hooks, dark/light mode theming, and API integration.
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+---
+
+## 🧩 Features
+
+✅ **React Components** – Modular structure for scalability and readability
+✅ **Dark / Light Mode Toggle** – Dynamic theme switching with persistent local storage
+✅ **Task Manager** – Add, view, and delete tasks with state management
+✅ **API Integration** – Fetches and displays posts from an external API
+✅ **Responsive UI** – Tailwind CSS ensures the layout works beautifully on mobile and desktop
+✅ **Smooth Transitions** – Includes color and theme transitions for better user experience
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool                       | Purpose                |
+| -------------------------- | ---------------------- |
+| **React.js (Vite)**        | Front-end framework    |
+| **Tailwind CSS**           | Styling and layout     |
+| **JavaScript (ES6+)**      | Logic and interaction  |
+| **PostCSS + Autoprefixer** | Tailwind build support |
+| **Fetch API**              | Data retrieval         |
+
+---
+
+## 📂 Project Structure
+
+```
+plp-task-manager/
+│
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── TaskManager.jsx
+│   │   └── PostsSection.jsx
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   ├── utils/
+│   │   └── api.js
+│   ├── assets/
+│   └── index.css
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+1. **Clone this repository**
+
+   ```bash
+   git clone https://github.com/<your-username>/plp-task-manager.git
+   cd plp-task-manager
    ```
+
+2. **Install dependencies**
+
+   ```bash
    npm install
    ```
-4. Start the development server:
-   ```
+
+3. **Start the development server**
+
+   ```bash
    npm run dev
    ```
 
-## Files Included
+4. Open your browser and go to
+   👉 `http://localhost:5173/`
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## 🌐 Live Demo
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+> 🎯 **Deployed Version:**
+> 🔗 [View Live Demo](https://your-netlify-link-here.netlify.app)
 
-## Project Structure
+_(Replace the above link once you deploy to Netlify or GitHub Pages)_
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+---
 
-## Submission
+## 🌗 Dark / Light Mode
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+- Click the **“Dark Mode / Light Mode”** button in the header to switch themes.
+- The preference is automatically saved, so it persists after refreshing the page.
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+---
 
-## Resources
+## 🧠 Learning Objectives
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+- Understand component-based architecture in React
+- Use Tailwind CSS for efficient UI styling
+- Implement React Hooks (`useState`, `useEffect`)
+- Manage dynamic themes (dark/light)
+- Integrate an external API with Fetch
+
+---
+
+## 🖼️ Screenshot of the Working App
+
+Deployment on local host
+(<Screenshot 2025-10-23 182803.png>)
+
+---
+
+## 📜 License
+
+This project was created as part of the **Power Learn Project (PLP) Software Development Specialization** coursework.
+Feel free to modify or reuse with proper credit.
